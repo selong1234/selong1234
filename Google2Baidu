@@ -1,0 +1,9 @@
+#!name=Google Rewrite
+#!desc=Safari 谷歌搜索重定向
+#!system=ios
+
+hostname = www.google.cn, www.g.cn
+
+^https?://(www\.)?g\.com url 302 https://www.baidu.com
+^https?://(www\.)?google\.com url 302 https://www.baidu.com
+^https?://(www\.)?google\.cn/search url 302 https://www.baidu.com/search
