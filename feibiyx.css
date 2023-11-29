@@ -1,0 +1,11 @@
+.col-md-3 {
+  display: none;
+}
+
+.content-wrapper>.row{
+  display: block;
+}
+
+.col-md-9.game-content{
+  max-width: none;
+}
