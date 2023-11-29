@@ -2,10 +2,3 @@
   display: none !important;
 }
 
-.content-wrapper>.row{
-  display: block;
-}
-
-.col-md-9.game-content{
-  max-width: none;
-}
