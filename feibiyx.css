@@ -1,5 +1,5 @@
 .col-md-3 {
-  display: none;
+  display: none !important;
 }
 
 .content-wrapper>.row{
